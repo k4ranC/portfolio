@@ -30,7 +30,8 @@ const projects = [
     title: 'N-Body Gravity Simulator',
     tag: 'Python / Algorithms / Simulation',
     description: 'A real-time gravity simulator using a Barnes-Hut quadtree for O(n log n) force calculation and leapfrog integration.',
-    status: 'coming'
+    status: 'live',
+    link: 'https://github.com/k4ranC/n-body-gravity-simulator'
   },
   {
     id: 'gravitational-waves',
