@@ -2,6 +2,14 @@ import { useNavigate } from 'react-router-dom'
 
 const projects = [
   {
+    id: 'quotelet',
+    title: 'Quotelet',
+    tag: 'Web App / JavaScript / Product',
+    description: 'A free quote maker for UK tradespeople. Build a clean quote in two minutes, send it, and get a nudge to chase it. Live and in use.',
+    status: 'live',
+    link: 'https://k4ranc.github.io/quotelet'
+  },
+  {
     id: 'accretion',
     title: 'Black Hole Accretion Simulator',
     tag: 'Three.js / Physics / Interactive',
@@ -12,8 +20,16 @@ const projects = [
   {
     id: 'exoplanet',
     title: 'Exoplanet Detection',
-    tag: 'Python / NASA Data / ML',
-    description: 'Using real Kepler telescope data to detect exoplanets via the transit method — the same technique used by actual astronomers.',
+    tag: 'Python / NASA Data / Data Analysis',
+    description: 'Finds the orbital period of Kepler-22b from raw telescope data using the transit method, and checks the result against the published value.',
+    status: 'live',
+    link: 'https://github.com/k4ranC/exoplanet-detection'
+  },
+  {
+    id: 'nbody',
+    title: 'N-Body Gravity Simulator',
+    tag: 'Python / Algorithms / Simulation',
+    description: 'A real-time gravity simulator using a Barnes-Hut quadtree for O(n log n) force calculation and leapfrog integration.',
     status: 'coming'
   },
   {
@@ -97,7 +113,7 @@ export default function Projects() {
                 whiteSpace: 'nowrap',
                 marginLeft: '20px'
               }}>
-                {proj.status === 'coming' ? 'In Progress' : 'View'}
+                {proj.status === 'coming' ? 'In Progress' : proj.link ? 'Open ↗' : 'View'}
               </span>
             </div>
             <p style={{

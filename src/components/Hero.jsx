@@ -69,7 +69,7 @@ export default function Hero() {
           textTransform: 'uppercase',
           marginBottom: '20px'
         }}>
-          Computer Science · Physics · Astrophysics
+          Computer Science · Software · Data
         </p>
         <h1 style={{
           color: '#fff',
@@ -90,8 +90,8 @@ export default function Hero() {
           lineHeight: 1.7,
           margin: '0 auto 40px'
         }}>
-          CS student at University of Leeds, building projects
-          at the intersection of computation and the universe.
+          CS student at University of Leeds. I build software,
+          simulations and tools, and ship them.
         </p>
         <a href="#projects" style={{
           color: 'rgba(255,255,255,0.4)',

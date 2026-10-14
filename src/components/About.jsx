@@ -22,8 +22,7 @@ export default function About() {
         marginBottom: '24px',
         fontWeight: 300
       }}>
-        I'm a third-year Computer Science student at the University of Leeds,
-        interested in the overlap between computation, mathematics, and physics.
+        I'm a third-year Computer Science student at the University of Leeds who likes building things end to end: software people can use, simulations, and analysis of real data.
       </p>
       <p style={{
         color: 'rgba(255,255,255,0.5)',
@@ -32,11 +31,7 @@ export default function About() {
         lineHeight: 1.9,
         fontWeight: 300
       }}>
-        I'm drawn to problems where software meets the physical world —
-        building simulations, working with real scientific data, and
-        understanding how the universe computes itself.
-        Currently applying to graduate programmes in applied mathematics
-        and computational physics.
+        I work across web apps, Python and scientific computing, from a free tool for tradespeople to a black hole simulator. Currently applying to Masters programmes in computer science.
       </p>
     </section>
   )
